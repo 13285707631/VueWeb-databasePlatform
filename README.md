@@ -20,6 +20,7 @@
 > * https://blog.csdn.net/weixin_34168700/article/details/94462672
 > * https://blog.csdn.net/weixin_47534571/article/details/110865829
 > * https://www.cnblogs.com/binmengxue/p/6831850.html
+> * https://segmentfault.com/q/1010000019398104
 > ---
 > vue和element官网
 > * https://vuejs.org/v2/guide/
