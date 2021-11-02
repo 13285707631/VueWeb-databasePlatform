@@ -1,5 +1,6 @@
 # vueWebPlatform
-> 本项目主要是一个基于vue和element ui开发的一个前端框P架 vue: 2.9.6 npm 6.14.15 主要可能使用code-mirror  element ui（美团的开发框架）webpack 3.6.0,具体依赖库参见
+> 本项目主要是一个基于vue和element ui开发的一个前端框架 vue: 2.9.6 npm 6.14.15 主要可能使用code-mirror  element ui（美团的开发框架）webpack 3.6.0,具体依赖库参见
+> ---
 > ![image](https://user-images.githubusercontent.com/30305045/139636382-3e564f44-e635-469e-a592-f2ff7fdcd98b.png)
 > ---
 > 平台截图
