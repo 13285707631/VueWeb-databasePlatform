@@ -22,7 +22,8 @@
 > * https://blog.csdn.net/weixin_47534571/article/details/110865829
 > * https://www.cnblogs.com/binmengxue/p/6831850.html
 > * https://segmentfault.com/q/1010000019398104
-> ---
+> 其中跨域的问题
+> 首先需要明确是开发环境还是生产环境，开发环境据我自己理解 就是本地的开发 端口地址啥的都是localhost 生产环境就是本地Buid之后大包放到服务器上运行
 > vue和element官网
 > * https://vuejs.org/v2/guide/
 > * https://element.eleme.cn/#/zh-CN/component/installation
