@@ -22,8 +22,17 @@
 > * https://blog.csdn.net/weixin_47534571/article/details/110865829
 > * https://www.cnblogs.com/binmengxue/p/6831850.html
 > * https://segmentfault.com/q/1010000019398104
-> 其中跨域的问题
-> 首先需要明确是开发环境还是生产环境，开发环境据我自己理解 就是本地的开发 端口地址啥的都是localhost 生产环境就是本地Buid之后大包放到服务器上运行
+> ---
+> 其中跨域的问题,
+> 首先需要明确是开发环境还是生产环境，开发环境据我自己理解 就是本地的开发 端口地址啥的都是localhost 生产环境就是本地Buid之后大包放到服务器上运行,开发环境的跨域问题在config/index.js下的proxy_table下进行代理就行，
+> ![image](https://user-images.githubusercontent.com/30305045/143973240-4ebfbd8b-6877-40d4-8b45-3aaea7efc150.png)
+生产环境下的跨域问题一般都由后端解决参考jsonp, 需要在生产环境和开发环境切换时尤其时本地在proxy做了代理的时候需要动态的根据程序所处的环境更换接口地址，
+![image](https://user-images.githubusercontent.com/30305045/143973446-0fd382c3-15a0-411c-9c64-a596f5abcc29.png)
+confg目录下的pro.env.js和dev.env.js分别指向生产环境和开发环境
+![image](https://user-images.githubusercontent.com/30305045/143973548-d6b64561-ea1b-40fd-9c8f-0797e1635010.png)
+因为开发环境做了本地的代理，所以我只需要在生产环境下设定好我的接口地址
+![image](https://user-images.githubusercontent.com/30305045/143973866-75878c66-171b-4a38-8891-23a55da3b77c.png)
+在代码里就可以做一个判断，判断当前环境是生产还是开发，process.env.BASE_API_S就是我在生成环境的js下定义的url地址
 > vue和element官网
 > * https://vuejs.org/v2/guide/
 > * https://element.eleme.cn/#/zh-CN/component/installation
